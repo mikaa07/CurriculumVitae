@@ -1,0 +1,18 @@
+.proyectos img{
+    width: 400px;
+}
+
+.proyectos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 50px;
+}
+
+.trabajos{
+    margin-left: 50px;
+}
+
+.informacion{
+    margin-right: 50px;
+}

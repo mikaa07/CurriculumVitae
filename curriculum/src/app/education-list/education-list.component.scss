@@ -1,0 +1,12 @@
+//aca deberia acomodar la imagen de un lado y la carrera del otro
+.educacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.instituto img{
+    width: 50px;
+}
