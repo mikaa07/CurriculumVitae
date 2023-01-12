@@ -1,0 +1,17 @@
+<h4>Skills</h4>
+<!-- ERA PARA HACERLO CON LA BARRA DE RANGO QUE ESTA A CONTINUACIONPERO NO LOGRO COMPILARLO EN EL TS
+<div class="habilidades">
+    <div class="habilidad">
+        <h6>HTML5</h6>
+        <input class="range" type="range" value="50" min="0" max="100" step="10" 
+            onchange="rangeSlide(this.value + '%')" onmousemove="rangeSlide(this.value + '%')"> 
+            <span id="rangeValue">0</span>
+    </div>
+</div>-->
+
+<div class="habilidades">
+    <div class="habilidad" *ngFor="let habilidad of habilidades">
+        <h6>{{habilidad.titulo}}</h6>
+        <img [src]="habilidad.image">
+    </div>
+</div>

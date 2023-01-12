@@ -1,0 +1,12 @@
+<h4>Proyectos</h4>
+<div class="proyectos" *ngFor="let proyecto of proyectos">
+        <div class="trabajos">
+            <img [src]="proyecto.image">
+            <p>{{proyecto.link}}</p>
+        </div>
+        <div class="informacion">
+            <li>{{proyecto.titulo}} ( {{proyecto.periodo}} )</li>
+            <li>{{proyecto.descripcion}}</li>
+        </div>    
+    
+</div>
